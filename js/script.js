@@ -12,7 +12,7 @@ $(function () {
     $(this).hide();
     $('.hl-item, .hl-closer').fadeIn();
   });
-  $('.hl-closer').click(function(){
+  $('.hl-closer, .hl-item').click(function(){
     $('.hl-closer').fadeOut(3);
     $('.hl-item').fadeOut(1);
     $('.hl-toggler').fadeIn();
